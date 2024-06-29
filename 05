@@ -1,0 +1,20 @@
+/Receive a price for a product, calculate and display a new price knowing that this product received a 10% discount./
+
+#include<stdio.h>
+#include<locale.h>
+
+int main(){
+
+    setlocale(LC_ALL,"portuguese");
+
+float preco;
+printf("Digite o valor do produto: \n");
+scanf("%f", &preco);
+
+float porcento = preco * 10 / 100;
+
+float newpreco = preco - porcento;
+
+printf("O resultado  será = %f", newpreco);
+
+}
