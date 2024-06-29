@@ -1,4 +1,4 @@
-/receba três números calcule e mostre a multiplicação destes números/
+/receive three numbers calculate and show the multiplication of these numbers/
   
 #include<stdio.h>
 #include<locale.h>
